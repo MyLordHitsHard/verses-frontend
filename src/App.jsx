@@ -541,7 +541,7 @@ export default function App() {
         <div className="h-glow"/><div className="h-grid"/>
         <div className="h-ey">HD's Writing Portfolio</div>
         <h1 className="h1">Words that live<br/>between <em>the lines</em></h1>
-        <p className="h-sub">A private collection of poems, reflections, and writings — from Kashmir to Bangalore and everywhere between.</p>
+        <p className="h-sub">A private collection of poems, reflections, and writings - from Love to Inspirational and everywhere between.</p>
         <div className="h-cta">
           <button className="goldBtn" onClick={() => document.getElementById("wr")?.scrollIntoView({behavior:"smooth"})}>
             <Icon.Book />Read Writings
