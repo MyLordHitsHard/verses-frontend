@@ -166,8 +166,8 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;mi
 .sR-p{font-size:12px;color:var(--t2)}
 
 /* POEM MODAL */
-.mOv{position:fixed;inset:0;z-index:300;background:rgba(8,7,9,.98);backdrop-filter:blur(32px);display:flex;align-items:center;justify-content:center;padding:48px;animation:fIn .22s ease;overflow-y:auto}
-.mC{width:100%;max-width:660px;animation:mIn .38s cubic-bezier(.4,0,.2,1)}
+.mOv{position:fixed;inset:0;z-index:300;background:rgba(8,7,9,.98);backdrop-filter:blur(32px);display:flex;align-items:flex-start;justify-content:center;padding:80px 48px;animation:fIn .22s ease;overflow-y:auto}
+.mC{width:100%;max-width:660px;animation:mIn .38s cubic-bezier(.4,0,.2,1);margin:auto}
 .mClose{position:fixed;top:18px;right:18px;width:40px;height:40px;border-radius:50%;border:1px solid var(--b2);background:var(--s1);color:var(--cream2);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .18s;z-index:10}
 .mClose:hover{border-color:var(--cream);color:var(--cream)}
 .m-ey{font-size:9px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
@@ -225,7 +225,7 @@ body{background:var(--bg);color:var(--cream);font-family:'DM Sans',sans-serif;mi
   .feat-banner{margin-left:18px;margin-right:18px;grid-template-columns:1fr}
   .feat-l{border-right:none;border-bottom:1px solid var(--b1)}
   .feat-skel{margin-left:18px;margin-right:18px}
-  .mOv{padding:18px}
+  .mOv{padding:70px 18px 40px}
 }
 `;
 
